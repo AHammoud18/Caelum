@@ -8,6 +8,8 @@
 import SwiftUI
 import RealityKit
 
+
+//testing commit
 extension View {
     // this allows you to add .navigate(to: , when: ) to a view when you want to switch to another view
     func navigate<NewView: View>(to view: NewView, when binding: Binding<Bool>) -> some View {
