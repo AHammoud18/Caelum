@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="41px" height="40px" viewBox="0 0 41 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Untitled</title>
+    <defs>
+        <filter x="-32.4%" y="-33.3%" width="164.9%" height="166.7%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.11372549   0 0 0 0 0.176470588   0 0 0 0 0.368627451  0 0 0 1 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-2" transform="translate(2.000000, 2.000000)" fill="#BDB7E9">
+            <rect id="Background" x="0" y="0" width="37" height="36" rx="18"></rect>
+            <g id="Controls/Pickers/Color/x/Dark/Add-Button" filter="url(#filter-1)">
+                <rect id="Background" fill-opacity="0.5" x="0" y="0" width="37" height="36" rx="18"></rect>
+                <path d="M18.5004111,10.6670667 C19.1934743,10.6670667 19.7630322,11.1958561 19.8276408,11.8719911 L19.8337444,12.0004 L19.8334111,16.6664 L24.5004111,16.6670667 C25.2367908,16.6670667 25.8337444,17.2640203 25.8337444,18.0004 C25.8337444,18.6934632 25.304955,19.263021 24.62882,19.3276297 L24.5004111,19.3337333 L19.8334111,19.3334 L19.8337444,24.0004 C19.8337444,24.7367797 19.2367908,25.3337333 18.5004111,25.3337333 C17.8073479,25.3337333 17.2377901,24.8049439 17.1731814,24.1288089 L17.1670778,24.0004 L17.1664111,19.3334 L12.5004111,19.3337333 C11.7640314,19.3337333 11.1670778,18.7367797 11.1670778,18.0004 C11.1670778,17.3073368 11.6958672,16.737779 12.3720022,16.6731703 L12.5004111,16.6670667 L17.1664111,16.6664 L17.1670778,12.0004 C17.1670778,11.2640203 17.7640314,10.6670667 18.5004111,10.6670667 Z" id="Path" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>
